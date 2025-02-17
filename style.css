@@ -1,0 +1,330 @@
+<<<<<<< HEAD
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .container{
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: column;
+    
+  }
+
+  /* Heading Styles */
+  h1 {
+    /* text-align: center; */
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    top: 0; /* Ensure it stays at the top */
+    z-index: 1; /* Keep it above other elements */
+  }
+  h2{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    top: 0; /* Ensure it stays at the top */
+    z-index: 1; /* Keep it above other elements */
+  }
+  /* Form Container */
+  form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto; /* Center the form */
+    animation: slideUp 1s ease-in-out;
+
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  /* Input Fields, Select, and Textarea */
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+    outline: none;
+  }
+  
+  /* Hover Effects for Inputs */
+  input:hover,
+  select:hover,
+  textarea:hover {
+    border-color: #45a049;
+    transform: scale(1.01);
+  }
+  
+  /* Submit Button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  button:hover {
+    background: #45a049;
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    input,
+    select,
+    textarea,
+    button {
+      font-size: 0.9rem;
+    }
+=======
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .container{
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: column;
+    
+  }
+
+  /* Heading Styles */
+  h1 {
+    /* text-align: center; */
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    top: 0; /* Ensure it stays at the top */
+    z-index: 1; /* Keep it above other elements */
+  }
+  h2{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    top: 0; /* Ensure it stays at the top */
+    z-index: 1; /* Keep it above other elements */
+  }
+  /* Form Container */
+  form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto; /* Center the form */
+    animation: slideUp 1s ease-in-out;
+
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  /* Input Fields, Select, and Textarea */
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+    outline: none;
+  }
+  
+  /* Hover Effects for Inputs */
+  input:hover,
+  select:hover,
+  textarea:hover {
+    border-color: #45a049;
+    transform: scale(1.01);
+  }
+  
+  /* Submit Button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  button:hover {
+    background: #45a049;
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    input,
+    select,
+    textarea,
+    button {
+      font-size: 0.9rem;
+    }
+>>>>>>> 349a3a9b15691a19a67245aaf77c1180493b39ae
+  }

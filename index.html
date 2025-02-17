@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Submission Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Admission Form</h1>
+        <h2>By Sabri sir</h2>
+        <form id="studentForm">
+            <!-- Basic Details -->
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree" required>
+
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year" required>
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+
+            <label for="name">Name of the Student:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="guardianName">Father/Guardian Name:</label>
+            <input type="text" id="guardianName" name="guardianName" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+
+            <label for="community">Community:</label>
+            <input type="text" id="community" name="community" required>
+
+            <label for="parentIncome">Parent Annual Income:</label>
+            <input type="number" id="parentIncome" name="parentIncome" required>
+
+            <label for="phoneNo">Phone No.:</label>
+            <input type="text" id="phoneNo" name="phoneNo">
+
+            <label for="mobileNo">Mobile No.:</label>
+            <input type="text" id="mobileNo" name="mobileNo" required>
+
+            <label for="district">District:</label>
+            <input type="text" id="district" name="district" required>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="sslcMarks">SSLC Marks:</label>
+            <input type="number" id="sslcMarks" name="sslcMarks" required>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+
+            <label for="highestQualification">Highest Qualification:</label>
+            <input type="text" id="highestQualification" name="highestQualification" required>
+
+            <label for="examRegNo">Exam Registration No.:</label>
+            <input type="text" id="examRegNo" name="examRegNo" required>
+
+            <label for="mediumOfStudy">Medium of Study:</label>
+            <input type="text" id="mediumOfStudy" name="mediumOfStudy" required>
+
+            <label for="mathsMarks">Maths Marks:</label>
+            <input type="number" id="mathsMarks" name="mathsMarks" required>
+
+            <label for="physicsMarks">Physics/Vocational Practical Marks:</label>
+            <input type="number" id="physicsMarks" name="physicsMarks" required>
+
+            <label for="chemistryMarks">Chemistry/Vocational Practical Marks:</label>
+            <input type="number" id="chemistryMarks" name="chemistryMarks" required>
+
+            <label for="pcmPercentage">PCM %:</label>
+            <input type="number" step="0.01" id="pcmPercentage" name="pcmPercentage" required>
+
+            <label for="cutOffMarks">Cut-off Marks (out of 200):</label>
+            <input type="number" id="cutOffMarks" name="cutOffMarks" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
