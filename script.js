@@ -38,7 +38,7 @@ document.getElementById('studentForm').addEventListener('submit', function (e) {
     };
   
     // Send data to the Web App URL
-    fetch('https://script.google.com/macros/s/AKfycbzc-TjQUzEM2yuWCY8tI1bAIAwjAa5Fh-OuHgRJ78mZQbF25Atvgy2gy4DhIM0TAIZW/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbyRzjmbeq0LoivAq6xt7H_wB9QIF9cNdH6seo6zp3cJZgGv6p2RA_2LwF35Eo-QqVbJfA/exec', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
